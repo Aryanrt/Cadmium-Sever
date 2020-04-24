@@ -1,3 +1,7 @@
+### RT-Cadmium: Cadmium-Server ###
+
+See SelfDrivingBot_Formal_Project_Description.docx for a complete description of the model.
+
 ### REAL TIME CADMIUM INSTALL ###
 
 Clone this repo into an empty folder, ensure you download the MBed submodules:
@@ -6,11 +10,11 @@ Clone this repo into an empty folder, ensure you download the MBed submodules:
 
 Run this to install dependencies
 
-> RT-Cadmium-Blinky/install.sh
+> Cadmium-Server/install.sh
 
 ### SIMULATE MODELS ###
 
-> cd RT-Cadmium-Blinky/top_model/
+> cd Cadmium-Server/top_model/
 
 > make clean; make all
 
@@ -25,7 +29,7 @@ SVEC (Simulation Visualization for Embedded Cadmium) is a python GUI that parses
 
 If your target platform *is not* the Nucleo-STM32F401, you will need to change the COMPILE_TARGET / FLASH_TARGET in the make file.
 
-> cd RT-Cadmium-Blinky/top_model/
+> cd Cadmium-Server/top_model/
 
 > make clean; make embedded; make flash;
 
